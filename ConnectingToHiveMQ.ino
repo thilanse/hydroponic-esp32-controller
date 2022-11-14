@@ -15,14 +15,14 @@
 #include <PubSubClient.h>
 
 //---- WiFi settings
-const char* ssid = "Dialog 4G 500";
-const char* password = "8E545Ce1";
+const char* ssid = "ssid";
+const char* password = "pass";
 
 //---- MQTT Broker settings
-const char* mqtt_server = "f9a63d04e24b4540ab8742be4a41cce7.s2.eu.hivemq.cloud";  // replace with your broker url
-const char* mqtt_client = "ESP32-1";
-const char* mqtt_username = "thilan-hive-mq";
-const char* mqtt_password = "ThiHive.2853";
+const char* mqtt_server = "mqtt-server";  // replace with your broker url
+const char* mqtt_client = "client-name";
+const char* mqtt_username = "username";
+const char* mqtt_password = "password";
 const int mqtt_port = 8883;
 
 
