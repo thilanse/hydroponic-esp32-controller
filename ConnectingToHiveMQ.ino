@@ -5,6 +5,8 @@
  * Created by Ilias Lamprou
  * Jul 13 2021
  *
+ * Code was retrieved from https://www.youtube.com/watch?v=WGx06lPTNyQ
+ *
  * Modified by Thilan Senanayake
  * Nov 14 2022
  */
@@ -143,7 +145,7 @@ void setup() {
 
 void publishData() {
   // Collect sensor data and publish to relevant topics
-  
+
   sensor1 = random(50);       // replace the random value with your sensor value
   sensor2 = 20 + random(80);  // replace the random value  with your sensor value
   publishMessage(sensor1_topic, String(sensor1), true);
